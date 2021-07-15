@@ -1,0 +1,39 @@
+html{width: 100%;height: 100%;overflow: hidden;}
+
+.form{
+    position: absolute;
+    margin: 50px;
+    padding-left: 40px;
+}
+body{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+#submit{
+    border:2px;
+    background-color: darkgreen;
+    color: white ;
+    font-size: 20px;
+    border-radius:4px;
+    width:100px;
+    height:25px;
+}
+#submit:hover{
+    background-color:lightsalmon;
+    transition: .5s ease-in-out;
+    color:black;
+}
+
+
+
+table {
+
+    margin-left : 50%;
+    margin-top : 2%;
+
+
+}

@@ -1,0 +1,88 @@
+﻿{
+    "Sheet1": [
+        {
+            "Keyword": "hotstar",
+            "CVE-ID": "119-2019",
+            "Rank & Forum ": "1. NVD",
+            "Vulnurability Type": "Buffer Overflow"
+        },
+        {
+            "Keyword": "hotstar",
+            "CVE-ID": "NA",
+            "Rank & Forum ": "2. securityfocus",
+            "Vulnurability Type": "NA"
+        },
+        {
+            "Keyword": "hotstar",
+            "CVE-ID": "NA",
+            "Rank & Forum ": "3. offensive-security",
+            "Vulnurability Type": "NA"
+        },
+        {
+            "Keyword": "hotstar",
+            "CVE-ID": "NA",
+            "Rank & Forum ": "4. THOR APT",
+            "Vulnurability Type": "Code Execution"
+        },
+        {
+            "Keyword": "builder",
+            "CVE-ID": "33813-2021",
+            "Rank & Forum ": "1. cve.circl.lu",
+            "Vulnurability Type": "DOS"
+        },
+        {
+            "Keyword": "builder",
+            "CVE-ID": "787-2019",
+            "Rank & Forum ": "2. Security Forum",
+            "Vulnurability Type": "Overflow"
+        },
+        {
+            "Keyword": "builder",
+            "CVE-ID": "NA",
+            "Rank & Forum ": "3. fire Eye",
+            "Vulnurability Type": "Injection"
+        },
+        {
+            "Keyword": "Windows 11",
+            "CVE-ID": "363",
+            "Rank & Forum ": "1. NVD ",
+            "Vulnurability Type": "XSS"
+        },
+        {
+            "Keyword": "Windows 12",
+            "CVE-ID": "NA",
+            "Rank & Forum ": "2. securityfocus.com",
+            "Vulnurability Type": "NA"
+        },
+        {
+            "Keyword": "Windows 13",
+            "CVE-ID": "NA",
+            "Rank & Forum ": "3. offensive-security",
+            "Vulnurability Type": "NA"
+        },
+        {
+            "Keyword": "Windows 14",
+            "CVE-ID": "NA",
+            "Rank & Forum ": "4. THOR APT",
+            "Vulnurability Type": "NA"
+        },
+        {
+            "Keyword": "MS Word",
+            "CVE-ID": "31180-2021",
+            "Rank & Forum ": "1. cvedetails",
+            "Vulnurability Type": "Code Execution"
+        },
+        {
+            "Keyword": "MS Word",
+            "CVE-ID": "0980-2020",
+            "Rank & Forum ": "2. virus total",
+            "Vulnurability Type": "Overflow"
+        },
+        {
+            "Keyword": "MS Word",
+            "CVE-ID": "NA",
+            "Rank & Forum ": "3. cybersecurityhelp.cz",
+            "Vulnurability Type": "Multiple"
+        }
+    ]
+}
