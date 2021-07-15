@@ -1,6 +1,7 @@
 $(document).ready(function(){
  $.ajaxSetup({ cache: false });
- $('#search').keyup(function(){
+ $('#submit').click(function(){
+   console.log("click");
   $('#result').html('');
   $('#state').val('');
   var searchField = $('#search').val();
