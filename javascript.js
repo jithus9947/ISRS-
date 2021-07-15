@@ -1,7 +1,7 @@
 $(document).ready(function(){
  $.ajaxSetup({ cache: false });
  $('#submit').click(function(){
-   console.log("click");
+   //give script to output table here
   $('#result').html('');
   $('#state').val('');
   var searchField = $('#search').val();
