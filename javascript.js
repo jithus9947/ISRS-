@@ -1,11 +1,7 @@
 $(document).ready(function(){
+  var expression = document.getElementById("search").value;
   $.ajaxSetup({ cache: false });
   $('button').click(function(){
-    $('#search').keyup(function(){
-     $('#result').html('');
-      $('#state').val('');
-        var searchField = $('#search').val();
-        var expression = new RegExp(searchField, "i");
         $.getJSON('db.json', function(data) {
         $.each(data, function(key, value){
           var data1=[];
@@ -20,7 +16,6 @@ $(document).ready(function(){
                 });
           $('#keytable').append(data1);   
     }
-    });
    });   
   });
  });
