@@ -1,25 +1,26 @@
 $(document).ready(function(){
- $.ajaxSetup({ cache: false });
- $('#submit').click(function(){
-   //give script to output table here
-  $('#result').html('');
-  $('#state').val('');
-  var searchField = $('#search').val();
-  var expression = new RegExp(searchField, "i");
-  $.getJSON('db.json', function(data) {
-   $.each(data, function(key, value){
-    if (value.name.search(expression) != -1 || value.location.search(expression) != -1)
-    {
+  $.ajaxSetup({ cache: false });
+  $('button').click(function(){
+    $('#search').keyup(function(){
+     $('#result').html('');
+      $('#state').val('');
+        var searchField = $('#search').val();
+        var expression = new RegExp(searchField, "i");
+        $.getJSON('db.json', function(data) {
         $.each(data, function(key, value){
-            employee_data += '<tr>';
-            employee_data += '<td>'+value.name+'</td>';
-            employee_data += '<td>'+value.username+'</td>';
-            employee_data += '<td>'+value.email+'</td>';
-            employee_data += '<tr>';
-          });
-          $('#employee_table').append(employee_data);
-
+          var data1=[];
+          if (value.Keyword.search(expression) != -1 )
+          {
+              $.each(data, function(key, value){
+                  data1 += '<tr>';
+                  data1 += '<td>'+value.CVEID+'</td>';
+                  data1 += '<td>'+value.Rank&Forum+'</td>';
+                  data1 += '<td>'+value.VulnurabilityType+'</td>';
+                  data1 += '<tr>';
+                });
+          $('#keytable').append(data1);   
     }
+    });
    });   
   });
  });
